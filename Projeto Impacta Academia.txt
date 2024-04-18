@@ -13,6 +13,9 @@ Gestão de Equipes e Jogadores:
 +Treinador
 
 2-página de Jogadores/Gerente de equipe:
+
+	-Gerenciamento de informações pessoais e métodos de pagamento
+
 	-Permita que os gerentes de equipe adicionem e gerenciem os membros das equipes de e-sports, atribuam posições, monitorem o desempenho dos jogadores e formem estratégias de jogo.
 	☇ Os jogadores podem fazer o requisito de trocar a sua posição na equipe(cargo) e esse pedido será avaliado pelo gerente e efetivado ou não.
 
