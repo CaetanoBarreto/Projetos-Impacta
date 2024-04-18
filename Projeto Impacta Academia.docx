@@ -1,0 +1,47 @@
+Projeto: Academia IMPACTA
+Caetano Mesquita Londres Barreto
+
+Tópicos de lógicas de negócios:
+
+Cadastro/Login de Jogadores/Gerentes de equipe e treinadores:
+Desenvolva um sistema de cadastro e login para os jogadores de e-sports, onde eles possam criar perfis e acessar o programa com finalidade de fazer a organização
+Gestão de Equipes e Jogadores:
+1- Login de Jogadores/Gerente de equipe:
+	-Na tela inicial de login especificar seu cargo entre:
++ Gerente de equipe/coach
++Jogador 
++Treinador
+
+2-página de Jogadores/Gerente de equipe:
+	-Permita que os gerentes de equipe adicionem e gerenciem os membros das equipes de e-sports, atribuam posições, monitorem o desempenho dos jogadores e formem estratégias de jogo.
+	☇ Os jogadores podem fazer o requisito de trocar a sua posição na equipe(cargo) e esse pedido será avaliado pelo gerente e efetivado ou não.
+
+Agendamento de Treinos e Partidas  & desenvolvimento:
+	-Crie funcionalidades para agendar treinos individuais e em equipe, bem como partidas e torneios contra outras equipes de e-sports.
+
+
+Recursos de treinamento:
+
+	-Ofereça recursos de treinamento para os jogadores, como tutoriais, vídeos de gameplay, análises de estratégias, entre outros conteúdos que os ajudem a melhorar suas habilidades com disponibilidade de agendamento presencial ou online com pagamento online.
+
+Monitoramento de Progresso e Estatísticas:
+	-Implemente ferramentas para que os jogadores acompanhem seu progresso em diferentes jogos, registrando estatísticas como número de vitórias, derrotas etc. podendo ser atualizado diariamente.
+
+Loja Virtual de Equipamentos e Itens In-Game:
+	-Adicione uma loja virtual onde os jogadores possam comprar equipamentos de gaming, periféricos e outros itens in-game usando uma moeda virtual conquistada através de conquistas nos jogos ou participação em eventos da academia.
+
+Desafios e Missões Semanais:
+	-Crie desafios e missões semanais para os jogadores, incentivando-os a alcançar determinados objetivos nos jogos. Ofereça recompensas exclusivas para aqueles que completarem os desafios com sucesso.
+
+APENAS PARA OS GERENTES:
+	-Crie um sistema para gerenciar contratos de patrocínio e acordos comerciais entre os jogadores e potenciais patrocinadores, acompanhando os termos e condições, pagamentos e renovações.
+
+3-página de Treinadores:
+
+Após fazer login como treinador, eles terão acesso a uma página personalizada com as seguintes funcionalidades:
+	-Dashboard do Treinador: Uma visão geral das equipes que estão treinando, seus horários de treino e suas estatísticas de desempenho.
+	-Gerenciamento de Treinos: Os treinadores podem gerenciar os treinos individuais e em equipe, definindo datas, horários, duração e localização. Eles também podem acompanhar a presença dos jogadores nos treinos.
+	-Desenvolvimento de Jogadores: Ofereça recursos de treinamento para os jogadores, como tutoriais, vídeos de gameplay, análises de estratégias, entre outros conteúdos que os ajudem a melhorar suas habilidades. Os treinadores podem recomendar conteúdo específico para cada jogador, com base em suas necessidades e áreas de melhoria.
+	-Monitoramento de Progresso: Os treinadores podem acompanhar o progresso dos jogadores em diferentes jogos, registrando estatísticas como número de vitórias, derrotas, kills, assists, entre outros. Eles podem analisar esses dados para identificar áreas de melhoria e desenvolver estratégias de treinamento personalizadas.
+	-Avaliação de Desempenho: Os treinadores podem avaliar o desempenho individual dos jogadores em treinos e partidas, fornecendo feedback construtivo e recomendações para melhorias.
+	-Comunicação com Jogadores e Gerentes de Equipe: Os treinadores podem se comunicar facilmente com os jogadores e gerentes de equipe por meio de mensagens internas no sistema, facilitando a coordenação de estratégias e o acompanhamento do progresso dos jogadores.
