@@ -1,0 +1,30 @@
+[
+  {
+    "nomeCompleto": "Jogador1",
+    "senha": "123",
+    "cpf": "123",
+    "endereco": "123",
+    "dataNascimento": "123",
+    "cargo": "Jogador",
+    "numeroEquipe": 2004
+  },
+  {
+    "nomeCompleto": "Gerente1",
+    "senha": "123",
+    "cpf": "123",
+    "endereco": "123",
+    "dataNascimento": "123",
+    "cargo": "Gerente de equipe/coach",
+    "numeroEquipe": 2004
+  },
+  {
+    "nomeCompleto": "Treinador1",
+    "senha": "123",
+    "cpf": "123",
+    "endereco": "123",
+    "dataNascimento": "123",
+    "cargo": "Treinador",
+    "numeroEquipe": 1,
+    "equipesTreinando": []
+  }
+]
