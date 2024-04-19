@@ -325,7 +325,8 @@ function mostrarMenu() {
   console.log('\nMenu:');
   console.log('1. Cadastrar Participante');
   console.log('2. Fazer login');
-  console.log('3. Sair');
+  console.log('3. Listar participantes');
+  console.log('4. Sair');
   rl.question('Escolha uma opção: ', (opcao) => {
     switch (opcao) {
       case '1':
@@ -335,6 +336,9 @@ function mostrarMenu() {
         fazerLogin();
         break;
       case '3':
+        listarParticipantes();
+        break;
+      case '4':
         rl.close();
         break;
       default:
@@ -366,7 +370,35 @@ function carregarDados() {
     console.error('Erro ao carregar os dados:', err);
   }
 }
+/////////////////////////////////////////////////////////
+function listarParticipantes() {
+  fs.readFile('DataCadastros.json', 'utf8', (err, data) => {
+    if (err) {
+      console.error('Erro ao ler o arquivo DataCadastros.json:', err);
+      mostrarMenu();
+      return;
+    }
 
+    try {
+
+      const participantes = JSON.parse(data);
+
+
+      if (participantes.length === 0) {
+        console.log('Nenhum participante cadastrado.');
+      } else {
+        console.log('Lista de Participantes:');
+        participantes.forEach((participante, index) => {
+          console.log(`${index + 1}. ${participante.nomeCompleto}`);
+        });
+      }
+    } catch (error) {
+      console.error('Erro ao analisar o conteúdo do arquivo DataCadastros.json:', error);
+    }
+
+    mostrarMenu();
+  });
+}
 /////////////////////////////////////////////////////////
 carregarDados();
 mostrarMenu();
